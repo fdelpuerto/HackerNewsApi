@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace HackerNewsAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("/")]
     public class StoriesController : ControllerBase
     {
         private readonly IHackerNewsService _hackerNewsService;
